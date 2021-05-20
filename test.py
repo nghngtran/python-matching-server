@@ -9,7 +9,7 @@ import sys
 import spacy
 from spacy.language import Language
 
-vectors_loc=("/Users/nghngtran/Desktop/Code/cc.vi.300.vec")
+vectors_loc=("../cc.vi.300.vec")
 
 tmp_data = []
 
