@@ -94,11 +94,11 @@ def match_product():
         # enter your server IP address/domain name
         HOST = "127.0.0.1" # or "domain.com"
         # database name, if you want just to connect to MySQL server, leave it empty
-        DATABASE = "dummy"
+        DATABASE = "shopping"
         # this is the user you create
         USER = "root"
         # user password
-        PASSWORD = "Ngoctran123"
+        PASSWORD = "Dangductrung@@123Th"
         # connect to MySQL server
         db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
         print("Connected to:", db_connection.get_server_info())
